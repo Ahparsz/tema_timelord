@@ -2,17 +2,77 @@
 Theme Name: Time Lord
 Theme URI: 
 Author: Raphaela Candido Zanirato
+Version: 1.0
 Author URI: http://wordpress.org/
-Description: Tema azul e amarelo wordpress. Inspirado na série britânica "Doctor Who". APW.
+Description: Tema azul e amarelo wordpress. Bem colorido na verdade. Inspirado na série britânica "Doctor Who". APW.
 Text Domain: timelord
 
 */
 
+body{
+	background: url(assets/images/fundo.png);
+	color: #DAA520; 
+  	background-repeat: no-repeat; 
+  	background-size: cover;
+}
+
+.back{
+	width: 100%;
+	height: 100px;
+	opacity: 45%;
+	background: #8B7B8B;
+}
+
 h1{
-	color: blue;
+	color: rgb(247, 189, 9);
+	font-family: Didot;
+}
+
+#intro p{
+	font-size: large;
+}
+
+p{
+	font-family: Garamond;
 }
 
 .logo{
 	width: 100%;
-	height: 250%;
+	height: 300px;
+}
+
+#rodape{
+	background: #8B7B8B;
+	color: yellow;
+	width: 100%;
+	height: 100px;
+	opacity: 45%;
+	border-radius: 10px 20px;
+	text-align: center;
+}
+
+#rodape p{
+	margin-top: 20px;
+}
+
+div .row{
+	margin-bottom: 25px;
+}
+
+#menu{
+	background: rgb(35, 7, 45);
+	border-radius: 10px 20px 30px;
+}
+
+.header-menu{
+	color: #FF7F24;
+	text-align: center;
+}
+
+#inicio{
+	margin-top: 20px;
+}
+
+*/{
+	font-family: Garamond;
 }
